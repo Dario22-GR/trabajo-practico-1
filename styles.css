@@ -1,3 +1,82 @@
 body{
+	margin-top:200px;
 	background-color: #f3343f
+	
+
 }
+
+*{
+	font-family: serif;
+	font-size: 16px;
+
+}
+h1, h2, h2, h3, h4, h5, h6{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+nav a{
+	
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+p{
+	text-align: justify;
+	line-height: 2em;
+}
+/*
+.post :first-child{
+	
+	border: 2px dashed #CCC;
+
+}*/
+
+.post p:first-of-type{
+	background: green;
+	border: 2px dashed #CCC;
+
+}
+
+ #nav{
+	position: fixed;
+	top: 0;
+	background: orange;
+	
+	width: 100%;
+}
+
+ #nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid blue;
+	box-sizing: content-box;
+	
+}
+
+
+.post, textarea:hover ,input:hover{
+	background-color: green;
+} 
+
+/*form{
+	
+	box-sizing: border-box;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+
+}*/
+
+ form{
+	background: magenta;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+
+
+ }
+
